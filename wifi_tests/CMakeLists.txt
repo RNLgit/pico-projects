@@ -1,7 +1,7 @@
-add_executable(wifi_pico2_tester wifi_pico2_tester.c)
+add_executable(wifi_pico2_scanner_blinker wifi_scanner_blinker.c)
 
-target_link_libraries(wifi_pico2_tester pico_stdlib pico_cyw43_arch_none)
+target_link_libraries(wifi_pico2_scanner_blinker pico_stdlib pico_cyw43_arch_none)
 
-pico_enable_stdio_usb(wifi_pico2_tester 1)
+pico_enable_stdio_usb(wifi_pico2_scanner_blinker 1)
 
-pico_add_extra_outputs(wifi_pico2_tester)
+pico_add_extra_outputs(wifi_pico2_scanner_blinker)
